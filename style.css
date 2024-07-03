@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* telefonlar uchun */
+@media screen and (max-width:879px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin: 10px;
+    }
+
+    .container {
+        background-color: red;
+    }
+}
+@media screen and (max-width:719px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        margin: 10px;
+    }
+
+    .container {
+        background-color: yellow;
+    }
+}
+@media screen and (max-width:599px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        margin: 10px;
+    }
+
+    .container {
+        background-color: orange;
+    }
+}
+@media screen and (max-width:479px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        margin: 10px;
+    }
+
+    .container {
+        background-color: rgb(0, 225, 255);
+    }
+}
+@media screen and (max-width:359px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        margin: 10px;
+    }
+
+    .container {
+        background-color:black;
+    }
+}
+@media screen and (max-width:239px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(6, 0, 193);
+        margin: 10px;
+    }
+
+    .container {
+        background-color:yellow;
+    }
+}
+
+
